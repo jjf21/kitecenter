@@ -1,0 +1,71 @@
+#outwindguru {
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#iniwindguru {
+  height: 516px;
+  left: 0px;
+  position: absolute;
+  bottom: -70px;
+  width: 100%;
+}
+
+#outmare {
+  height: 555px;
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+#inimare {
+  height: 932px;
+  left: 0px;
+  position: absolute;
+  top: -128px;
+  width: 100%;
+}
+#outhoule {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+#inihoule {
+  height: 800px;
+  left: 0px;
+  position: absolute;
+  top: -200px;
+  width: 100%;
+}
+#outsurf {
+  height: 365px;
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+#inisurf {
+  height: 862px;
+  left: 0px;
+  position: absolute;
+  top: -505px;
+  width: 100%;
+}
+
+#outbulletin {
+  height: 1180px;
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+#inibulletin {
+  height: 2420px;
+  position: absolute;
+  top: -1165px;
+  width: 100%;
+}

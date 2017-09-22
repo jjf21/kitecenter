@@ -1,136 +1,35 @@
-<html><head>
-        <link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
-        <script type="text/javascript" src="../javascript/fonction.js"></script>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-        <title>Meteo</title>
-    <script type="text/javascript" src="https://static.panomax.com/front/global/configuration.js"></script></head>
-
-    <body cz-shortcut-listen="true">
-		<table width="100%">
-			<tbody><tr>
-				<td><style>
-	#outmare {
-	height: 530px;
-	overflow: hidden;
-	position: relative;
-	width:200px;
-	}
-
-	#inimare {
-	height: 756px;
-	left: -748px;
-	position: absolute;
-	top: -127px;
-	width: 948px;
-	}
-</style>
-
-<div id="outmare"><iframe src="http://maree.info/8" frameborder="0" scrolling="no" id="inimare"></iframe></div>
-</td>
-				<td><style>
-	#outwindguru {
-	height: 540px;
-	overflow: hidden;
-	position: relative;
-	width: 666px;
-	}
-
-	#iniwindguru {
-	height: 847px;
-	left: -143px;
-	position: absolute;
-	bottom: -50px;
-	width: 819px;
-	}
-</style>
-
-<div id="outwindguru"><iframe src="http://www.windguru.cz/fr/index.php?sc=48359" frameborder="0" scrolling="no" id="iniwindguru"></iframe></div>
-</td>
-				<td><style>
-	#outanemo {
-	height: 216px;
-	overflow: hidden;
-	position: relative;
-	width: 93px
-	}
-
-	#inianemo {
-	height: 510px;
-	left: -812px;
-	position: absolute;
-	top: -295px;
-	width: 905px;
-	}
-</style>
-
-<div id="outanemo"><iframe src="http://funandkite.com/v2/" frameborder="0" scrolling="no" id="inianemo"></iframe></div>
-</td>
-			</tr>
-		</tbody></table>
-
-		<table width="100%">
-			<tbody><tr>
-			  <td><style>
-	#outbaston {
-	height: 424px;
-	overflow: hidden;
-	position: relative;
-	width:725px;
-	}
-
-	#inibaston {
-	height: 1256px;
-	left: -221px;
-	position: absolute;
-	bottom: -91px;
-	width: 945px;
-	}
-</style>
-
-<div id="outbaston"><iframe src="http://www.winds-up.com/spot-le-touquet-windsurf-kitesurf-100-observations-releves-vent.html" frameborder="0" scrolling="no" id="inibaston"></iframe></div>
-</td>
-			  <td rowspan="2"><style>
-	#outbulletin {
-	height: 690px;
-	overflow: hidden;
-	position: relative;
-	width:450px;
-	}
-
-	#inibulletin {
-	height: 925px;
-	position: absolute;
-	top: -220px;
-	width: 450px;
-	}
-</style>
-
-<div id="outbulletin"><iframe src="http://www.meteo.fr/marine/naviweb/bulletins/1310.html" frameborder="0" scrolling="no" id="inibulletin"></iframe></div>
-</td>
-		   </tr>
-		   <tr>
-			  <td><style>
-	#outhoule {
-	height: 440px;
-	overflow: hidden;
-	position: relative;
-	width:638px;
-	}
-
-	#inihoule {
-	height: 800px;
-	left: -20px;
-	position: absolute;
-	top: -318px;
-	width: 658px;
-	}
-</style>
-
-<div id="outhoule"><iframe src="http://www.allosurf.net/meteo-marine-manche-previsions-houle-wam-premium.html" frameborder="0" scrolling="no" id="inihoule"></iframe></div>
-</td>
-		   </tr>
-		</tbody></table>
-		<div><script type="text/javascript" src="http://static.panomax.at/front/gallerythumb/2.0/gt.js"></script><script type="text/javascript">PmaxGThumb.place({key: "110000062", resolution : "optimized"});</script><div id="gthumb_inst0" class="gthumb gthumb-erroneous" title="Click to open panorama!" style="width: 100%; border: none; padding: 0px; height: 300px; cursor: pointer;"><span class="gthumb-error">Preview could not be loaded, click here to show the panorama!</span></div><!-- see http://static.panomax.at/front/gallerythumb/2.0/example.html for more display options --></div>
-
-
-</body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>North Weather Channel</h1>
+    <div id="outwindguru">
+      <iframe src="https://www.windguru.cz/48359" frameborder="0" scrolling="no" id="iniwindguru"></iframe>
+    </div>
+    <br />
+    <div id="outwindguru">
+      <iframe src="https://www.windguru.cz/110" frameborder="0" scrolling="no" id="iniwindguru"></iframe>
+    </div>
+    <br />
+    <div id="outmare">
+      <iframe src="http://maree.info/8" frameborder="0" scrolling="no" id="inimare"></iframe>
+    </div>
+    <br />
+    <div id="outhoule">
+      <iframe src="http://www.allosurf.net/meteo-marine-manche-previsions-houle-wam-premium.html" frameborder="0" scrolling="no" id="inihoule"></iframe>
+    </div>
+    <br />
+    <div id="outsurf">
+      <iframe src="https://www.surf-report.com/meteo-surf/le-touquet-s1112.html" frameborder="0" scrolling="no" id="inisurf"></iframe>
+    </div>
+    <br />
+    <div id="outbulletin">
+      <iframe src="http://www.agate-france.com/meteo-marine-de-frontiere-belge-baie-somme-1711.html" frameborder="0" scrolling="no" id="inibulletin"></iframe>
+    </div>
+    <br />
+  </body>
+</html>
